@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Currency converter</title>
+</head>
+<body>
+    <header>
+        <div class="leftside-header">
+            <p>Currency converter</p>
+        </div>
+        <div class="rightside-header">
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>          
+        </div>
+    </header>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><button>Sign Up</button></li>
+            <li><button>Sign In</button></li>
+        </ul>
+    </div>
+
+    <div class="middlecard">
+        <div class="card">
+           <h3>Currency converter</h3>
+           <form action="" id="form" >
+            <p>Enter Your Currency (e.g.,INR,USD,LTL,LTC)</p>
+                <select id="select">
+                   
+                </select>
+          <p id="value" >Enter the amount</p>
+          <input type="number"  id="amount" placeholder="Enter the amount">
+          <button id="btn" >Convert</button>
+           </form>
+           <p id="demo" ></p>
+        </div>  
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Made by Srijon</p>
+    </footer>
+      <script src="script/script.js"></script>
+      <script src="script/api.js"></script>
+</body>
+</html>
